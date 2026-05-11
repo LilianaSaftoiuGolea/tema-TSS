@@ -11,7 +11,7 @@ class TestBlackBoxEquivalence(unittest.TestCase):
     """Teste black-box prin partiționare în clase de echivalență."""
 
     def test_bb_key_prezent(self):
-        self.assertEqual(linear_search([10, 20, 30, 40, 50], 30), 2)
+        self.assertEqual(linear_search([10, 20, 30, 40, 50], 30), 99)
 
     def test_bb_key_absent(self):
         self.assertEqual(linear_search([10, 20, 30, 40, 50], 99), -1)
